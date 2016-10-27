@@ -1,6 +1,17 @@
 # Sudoku
 A hard coded low level sudoku game written in c++ using [ncurses](https://en.wikipedia.org/wiki/Ncurses)
 
+#### Prerequisite
+[Install](http://www.cyberciti.biz/faq/linux-error-cursesh-no-such-file-directory/) ncurses.
+###### RHEL / Fedora / CentOS Linux
+```
+  $ yum install ncurses-devel ncurses
+```
+###### Debian / Ubuntu Linux
+```
+  $ sudo apt-get install libncurses5-dev libncursesw5-dev
+```
+
 #### Compile
 ```
   $ g++ sudoku.cpp -o sudoku -lncurses
